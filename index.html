@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kanak Dubey Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/Vector.png" />
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">KD </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+          <li class="nav__item nav__darkmode-mobile">
+            <button id="dark-mode-toggle" aria-label="Toggle Dark Mode" class="nav__darkmode-toggle">
+              <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            </button>
+          </li>
+          <li class="nav__item nav__download-mobile">
+            <a href="assets/Kanak_Dubey_CV.pdf" class="button" download>Download CV</a>
+          </li>
+        </ul>
+        <button class="nav__close" id="nav-close" aria-label="Close Menu">&times;</button>
+      </div>
+
+      <div class="nav__right">
+        <button class="nav__toggle" id="nav-toggle" aria-label="Open Menu">&#9776;</button>
+
+        <!-- Desktop dark mode toggle -->
+        <button id="dark-mode-toggle-desktop" aria-label="Toggle Dark Mode" class="nav__darkmode-toggle nav__darkmode-desktop">
+          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </button>
+
+        <!-- Desktop download button -->
+        <a href="assets/Kanak_Dubey_CV.pdf" class="button nav__download-desktop" download>Download CV</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="hero container" id="hero">
+      <div class="hero__content">
+        <h1 class="hero__title">Hi, I’m Kanak <span class="wave">👋</span></h1>
+        <p class="hero__description">
+          I am a passionate and self-taught UI/UX designer with hands-on experience in design, prototyping (Figma, Adobe XD, Sketch), user research, and front-end development (HTML, CSS, JavaScript, ReactJS), complemented by internships in web development and UI/UX design. Driven by core values of passion, continuous learning, creativity, and humility.
+        </p>
+        <div class="hero__location-availability" style="display: flex; flex-direction: column; gap: 0.5rem;">
+          <div class="hero__location">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-location" viewBox="0 0 24 24"><path d="M21 10c0 6-9 13-9 13S3 16 3 10a9 9 0 1 1 18 0z"/></svg>
+            <span>Madhya Pradesh, India</span>
+          </div>
+          <div class="hero__availability">
+            <span class="availability-dot"></span>
+            <span>Available for new projects</span>
+          </div>
+        </div>
+        <div class="hero__socials">
+          <a href="https://github.com/im-KanaK" target="_blank" rel="noopener" aria-label="GitHub"><img src="assets/github.png" alt="GitHub" /></a>
+          <a href="https://www.linkedin.com/in/kanakdubey/" target="_blank" rel="noopener" aria-label="LinkedIn"><img src="assets/linkedin.png" alt="LinkedIn" /></a>
+          <a href="https://www.behance.net/kanakdubey_" target="_blank" rel="noopener" aria-label="Behance"><img src="assets/Vector.png" alt="Behance" /></a>
+        </div>
+      </div>
+      <div class="hero__image">
+        <img src="assets/Pic Container.png" alt="Kanak Dubey" />
+      </div>
+    </section>
+
+    <section class="about container" id="about">
+      <button class="section__tag">About me</button>
+      <h2 class="section__title">Curious about me? Here you have it:</h2>
+      <div class="about__content">
+        <div class="about__image">
+          <img src="assets/Pic Container large.png" alt="Kanak Dubey" />
+        </div>
+        <div class="about__text">
+          <p>
+            Hey there! I’m Kanak Dubey, self-taught UI designer and I’m driven by a deep passion for creating positive change in people’s lives through thoughtful design.
+          </p>
+          <p>
+            I began my journey as a UI/UX Designer in 2024, and since then, I’ve continued to grow and evolve as a designer, taking on new challenges and learning the latest technologies along the way. I’m constantly expanding my knowledge through workshops, online tutorials, and feature-specializing in both personal and professional projects.
+          </p>
+          <p>
+            My skills encompass the entire design process, from initial ideation and user research (including usability testing and A/B testing), to crafting interactive prototypes in tools like Figma, Adobe XD, and Sketch. I also bring a practical understanding of front-end development with HTML, CSS, JavaScript, and ReactJS, further bridging the gap between design and development. My experience includes internships in both web development and UI/UX design, providing a well-rounded perspective.
+          </p>
+          <p>
+            Beyond the digital realm, you’ll often find me indulging in the delicate art of origami and creating handcrafted DIY projects. I also have a deep appreciation for the sites and knowledge held within the pages of books.
+          </p>
+          <p>Finally, some quick bits about me:</p>
+          <ul>
+            <li>B.Tech in Computer Science Engineering</li>
+            <li>Full-time Freelancer</li>
+            <li>UI/UX Designer</li>
+            <li>Always a learner</li>
+          </ul>
+          <p>
+            One last thing, I’m available for freelance work, so feel free to reach out and say hello! promise I don’t bite 😊
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills container" id="skills">
+      <button class="section__tag">Skills</button>
+      <p class="skills__intro">The skills, tools and technologies I am really good at:</p>
+      <div class="skills__icons">
+        <div class="skill__item">
+          <img src="assets/icon-html.png" alt="HTML" title="HTML" />
+          <span>HTML</span>
+        </div>
+        <div class="skill__item">
+          <img src="assets/icon-css.png" alt="CSS" title="CSS" />
+          <span>CSS</span>
+        </div>
+        <div class="skill__item">
+          <img src="assets/icon-figma.png" alt="Figma" title="Figma" />
+          <span>Figma</span>
+        </div>
+        <div class="skill__item">
+          <img src="assets/icon-javscript.png" alt="JavaScript" title="JavaScript" />
+          <span>JavaScript</span>
+        </div>
+        <div class="skill__item">
+          <img src="assets/icon-react.png" alt="React" title="React" />
+          <span>React</span>
+        </div>
+        <div class="skill__item">
+          <img src="assets/icon-git.png" alt="Git" title="Git" />
+          <span>Git</span>
+        </div>
+        <div class="skill__item">
+          <img src="assets/icon-adobeXd.png" alt="Adobe XD" title="Adobe XD" />
+          <span>Adobe XD</span>
+        </div>
+       
+      </div>
+    </section>
+
+    <section class="experience container" id="experience">
+      <button class="section__tag">Experience</button>
+      <p class="skills__intro">Here is a quick summary of my most recent experiences:</p>
+      <div class="experience__cards">
+        <article class="experience__card">
+          <img src="assets/amazon-logo.png" alt="Amazon" class="experience__logo" />
+          <div class="experience__content">
+            <h3>VCS Associate</h3>
+            <p class="experience__date">July 2024 - March 2025</p>
+            <ul>
+              <li>Maintained strong performance metrics including response time and resolution rate</li>
+              <li>Collaborated with cross-functional teams when needed to escalate and resolve company issues.</li>
+              <li>Adapted quickly to updates in policies, tools, and workflows in a dynamic work environment.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="experience__card">
+          <img src="assets/logo-revenue.png" alt="Revenue Synergy" class="experience__logo" />
+          <div class="experience__content">
+            <h3>UI/UX Designer, Front End Developer</h3>
+            <p class="experience__date">Jan 2024 - June 2024</p>
+            <ul>
+              <li>Instrumental in company design principles</li>
+              <li>Conducted interactive feedback sessions with client.</li>
+              <li>Actively gathered and synthesized client feedback to refine UI designs, leading to a 20% increase in user satisfaction.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="experience__card">
+          <img src="assets/logo-nullclass.png" alt="Nullclass" class="experience__logo" />
+          <div class="experience__content">
+            <h3>Web Development Intern</h3>
+            <p class="experience__date">Feb 2023 - July 2023</p>
+            <ul>
+              <li>Maintained strong performance metrics including response time and resolution rate</li>
+              <li>Adapted quickly to updates in Amazon policies, tools, and workflows in a dynamic work environment.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="work container" id="work">
+      <button class="section__tag">Work</button>
+      <p class="skills__intro">Some of the noteworthy projects I have built:</p>
+      
+      <div class="work__projects">
+        <article class="project__card">
+          <div class="project__image">
+            <img src="assets/project 1.png" alt="TaskBuddy app screenshot" />
+          </div>
+          <div class="project__info">
+            <h3>TaskBuddy</h3>
+            <p>A productivity-focused daily planner app designed to help users organize tasks and manage time efficiently. Built with an emphasis on usability and smooth navigation for better daily planning.</p>
+            <div class="project__tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Figma</span>
+              <span>VS Code</span>
+              <span>Git</span>
+            </div>
+            <a href="#" aria-label="TaskBuddy project link" class="project__link" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up-right"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="project__card">
+          <div class="project__image">
+            <img src="assets/project 3.png" alt="Personal Portfolio screenshot" />
+          </div>
+          <div class="project__info">
+            <h3>Personal Portfolio</h3>
+            <p>Designed a clean and modern personal portfolio focused on intuitive layout and responsive design principles. Created interactive prototypes to visualize user flow and improve user engagement.</p>
+            <div class="project__tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Figma</span>
+              <span>VS Code</span>
+              <span>Git</span>
+            </div>
+            <a href="#" aria-label="Personal Portfolio project link" class="project__link" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up-right"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="project__card">
+          <div class="project__image">
+            <img src="assets/project 3.png" alt="Stack Overflow Clone screenshot" />
+          </div>
+          <div class="project__info">
+            <h3>Stack Overflow Clone</h3>
+            <p>A full-featured Q&A platform inspired by Stack Overflow itself, built to facilitate knowledge sharing among developers. Users can post questions, provide answers, vote, and engage in meaningful discussions.</p>
+            <div class="project__tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>React</span>
+              <span>MongoDB</span>
+              <span>VS Code</span>
+              <span>Git</span>
+            </div>
+            <a href="#" aria-label="Stack Overflow Clone project link" class="project__link" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up-right"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+            </a>
+          </div>
+        </article>
+        <article class="project__card">
+          <div class="project__image">
+            <img src="assets/project 3.png" alt="Personal Portfolio screenshot" />
+          </div>
+          <div class="project__info">
+            <h3>Personal Portfolio</h3>
+            <p>Designed a clean and modern personal portfolio focused on intuitive layout and responsive design principles. Created interactive prototypes to visualize user flow and improve user engagement.</p>
+            <div class="project__tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Figma</span>
+              <span>VS Code</span>
+              <span>Git</span>
+            </div>
+            <a href="#" aria-label="Personal Portfolio project link" class="project__link" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up-right"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact container" id="contact">
+      <button class="section__tag">Get in touch</button>
+      <p class="contact__text">What's next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.</p>
+      <div class="contact__info">
+        <div class="contact__email-wrapper">
+          <a href="mailto:dubeykanak215@gmail.com" class="contact__email" aria-label="Email">dubeykanak215@gmail.com</a>
+          <button class="copy-btn" data-copy="dubeykanak215@gmail.com" aria-label="Copy email to clipboard" title="Copy email">
+            
+          </button>
+        </div>
+        <div class="contact__phone-wrapper">
+          <a href="tel:+919754347888" class="contact__phone" aria-label="Phone">+91 9754347888</a>
+          <button class="copy-btn" data-copy="+919754347888" aria-label="Copy phone number to clipboard" title="Copy phone number">
+            
+          </button>
+        </div>
+      </div>
+      <p class="contact__socials-text">You may also find me on these platforms</p>
+      <div class="contact__socials">
+        <a href="https://github.com/im-KanaK" target="_blank" rel="noopener" aria-label="GitHub"><img src="assets/github.png" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/kanakdubey/" target="_blank" rel="noopener" aria-label="LinkedIn"><img src="assets/linkedin.png" alt="LinkedIn" /></a>
+        <a href="https://www.behance.net/kanakdubey_" target="_blank" rel="noopener" aria-label="Behance"><img src="assets/Vector.png" alt="Behance" /></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 designed and coded with ❤️ by Kanak Dubey</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
